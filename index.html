@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TareaPicoCSS</title>
+        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">  
+    </head>
+    <body>
+            <nav>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Tutoriales</a></li>
+                    <li><a href="">Cursos</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati soluta fugiat minima illo, aspernatur iure consectetur accusamus odit eveniet eos vero, repellendus nulla error?Sit veniam temporibus ullam culpa cupiditate?</p>
+                <abbr title="texto informativo">Una Abreviación</abbr><br>
+                <del>Un texto en borrado</del><br>
+                <mark>Este es un texto marcado</mark><br>
+                <ins>Insertado</ins>
+        </article>
+        <blockquote>
+            "Maecenas vehicula metus tellus, vitae congue turpis hendrerit non.
+             Nam at dui sit amet ipsum cursus ornare."
+            <footer>
+            <cite>- lorem ipsum dolor</cite>
+        </footer>
+    </blockquote>
+    <details>
+        <summary role="button">Acordeón 1 párrafo</summary>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora ducimus nesciunt aut laborum dolorum vero ipsam. Quae mollitia repellendus ea praesentium error, perspiciatis, officiis fugit facilis natus unde hic iusto!</p>
+    </details>
+    <details>
+        <summary role="button">Acordeón 2 Lista</summary>
+        <ul>
+            <li>Elemento uno</li>
+            <li>Elemento dos</li>
+            <li>Elemento tres</li>
+            <li>Elemento cuatro</li>
+            <li>Elemento cinco</li>
+        </ul>
+    </details>
+    <details>
+        <summary role="button">Acordeón 3 Tabla</summary>
+        <table>
+            <thead>
+              <tr>
+        
+                <th scope="col">Heading 1</th>
+                <th scope="col">Heading 2</th>
+                <th scope="col">Heading 3</th>
+                <th scope="col">Heading 4</th>
+                <th scope="col">Heading 5</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+              </tr>
+              <tr>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+              </tr>
+              <tr>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+                <td>Cell</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td scope="col">Total</td>
+                <td scope="col">Total</td>
+                <td scope="col">Total</td>
+                <td scope="col">Total</td>
+                <td scope="col">Total</td>
+              </tr>
+            </tfoot>
+          </table>
+    </details>
+    <section class="grid">
+      <div>
+        <img src="img/imagen.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magnam voluptate reprehenderit ab nesciunt tempora quod minima vero aliquid, id doloremque, praesentium tenetur nemo temporibus ipsam ea illo qui porro?</p>
+      </div>
+      <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, rerum voluptas ratione vel iusto est adipisci a nisi fuga dicta enim aspernatur in ducimus consequuntur aliquam. Dolorum inventore in magni ipsum deleniti voluptas laborum officia eius debitis quasi, expedita beatae accusantium consequuntur nihil ad, mollitia ullam tempora unde est repellendus doloribus excepturi sequi necessitatibus. Aliquid a nostrum dicta quo voluptatum ut excepturi eaque cupiditate eveniet, sequi itaque recusandae voluptate numquam optio corporis, in est vitae. Vitae maxime temporibus at cum fugit eligendi, cumque commodi. Cumque alias consequatur dignissimos? Repellat rem quam hic neque animi possimus fuga quisquam, aspernatur voluptate optio!</p>
+      </div>
+    </section>
+     <section class="grid">
+      <div>
+        <img src="img/imagen2.jpg" width="200">
+        <p>imagen 1</p>
+      </div>
+      <div>
+        <img src="img/imagen3.jpg" width="200">
+        <p>imagen 2</p>
+      </div>
+      <div>
+        <img src="img/imagen4.jpg" width="200">
+        <p>imagen3</p>
+      </div>
+     </section>
+     <section class="grid">
+      <div>
+        <img src="img/imagen5.jpg" width="200">
+        <p>imagen 4</p>
+      </div>
+      <div>
+        <img src="img/imagen6.jpg" width="200">
+        <p>imagen 5</p>
+      </div>
+      <div>
+        <img src="img/imagen7.jpg" width="200">
+        <p>imagen 6</p>
+      </div>
+     </section>
+      <form>
+        <div class="grid">
+          <label for="">
+            Nombre:
+            <input type="text" id="Nombre" name="Nombre" placeholder="">
+          </label>
+          <label for="Apellidos">
+            Apellidos:
+            <input type="text" id="lastname" name="Apellidos" placeholder="">
+          </label>
+        </div>
+        <div class="grid">
+          <label for="Teléfono">
+            Teléfono:
+            <input type="text" id="Teléfono" name="Teléfono" size="30" placeholder="">
+          </label>
+          <label for="usuario">
+            usuario:
+            <input type="text" id="usuario" size="30" placeholder="">
+          </label>
+          <label for="email">
+            email:
+            <input type="text" size="30" name="email" placeholder="">
+          </label>
+        </div>
+        <div class="grid">
+          <label for="Busqueda">Busqueda
+            <input type="search" placeholder="">
+          </label>
+          <label for="permisos">
+            <select id="permisos">
+              <option value="select">Elegir permisos</option>
+              <option>administrador</option>
+              <option>usuario</option>
+              <option>invitado</option>
+            </select>
+          </label>
+        </div>
+        <div class="grid">
+          <fieldset>
+            <legend>Size</legend>
+            <label for="small">
+              <input type="radio"  value="small" checked>
+              Small
+            </label>
+            <label for="Medium" value="Medium">
+              <input type="radio">
+              Medium
+            </label>
+            <label for="large">
+              <input type="radio" value="large">
+              Large
+            </label>
+            <label for="extra large" >
+              <input type="radio" value="extra large">
+              Extra Large
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="terms">
+              <input type="checkbox">
+              I agree to the Terms and Conditions
+            </label>
+            <label for="">
+              <input type="checkbox">
+              I agree to the Destruction of the World
+            </label>
+            <label for="">
+              <input type="checkbox" checked>
+              I agree to sell my soul
+            </label>
+            <label for="">
+              <input type="checkbox">
+              I agree to share my information with partners
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="switch">
+              <input type="checkbox" id="switch" role="switch">
+              Publish to my profile
+            </label>
+            <label for="switch">
+              <input type="checkbox" id="switch" role="switch" disabled checked>
+              User must change password at next login
+            </label>
+          </fieldset>
+        </div>
+        <div class="grid">
+          <button type="button">Limpiar</button>
+          <button type="button">Enviar</button>
+        </div>
+      </form>
+    </body>
+</html>
